@@ -1,6 +1,6 @@
 # Exercise 2
 
-![](/assets/img-vpc-advanced-wb.svg)
+![](/assets/img-vpc-adv-wb.svg)
 
 1. Copy the template below
 2. Fix all TASKs

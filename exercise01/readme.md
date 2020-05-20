@@ -85,7 +85,7 @@ Now add a parameter "CidrBlock" that allows you to specify a parameter with the 
 Parameters:
   ExampleParameter:
     Type: String
-ResourceS:
+Resources:
   ExampleResource:
     Type: AWS::Example::Resource
     Properties:
