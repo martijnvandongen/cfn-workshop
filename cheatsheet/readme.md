@@ -371,7 +371,7 @@ def handler(event, context):
 
 ## Custom Resource
 
-```text
+```yaml
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
@@ -388,7 +388,7 @@ Resources:
 
 ## SAM
 
-```text
+```yaml
 Transform: AWS::Serverless-2016-10-31
 Resources:
   ServerlessFunction:
