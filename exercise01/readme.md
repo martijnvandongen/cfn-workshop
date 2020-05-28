@@ -53,7 +53,9 @@ Therefore, you can't use the Default Route Table of a VPC. [Docs](https://docs.a
 
 ### Route
 
-Hint: to get the `RouteTableId` of the default Route Table in a VPC, use `!GetAtt VPC.DefaultRouteTable`. [Docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html)
+Add a route to the previous Route Table.
+
+[Docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html)
 
 ```yaml
   PublicRouteToInternetGateway:
