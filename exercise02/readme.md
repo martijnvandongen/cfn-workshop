@@ -116,7 +116,7 @@ Resources:
       RouteTableId: !Ref PrivateRouteTableB
       SubnetId: !Ref PrivateSubnetB
   
-  # TASK 6: Add a route in PrivateRouteTableA and PrivateRouteTableA
+  # TASK 6: Add a route in PrivateRouteTableA and PrivateRouteTableB
   #         to the Nat Gateways in the same Availability Zone
   #         Hint 1: Copy the Route used for Public Subnets
   #         Hint 2: Destination is not a GatewayId but a Nat...
