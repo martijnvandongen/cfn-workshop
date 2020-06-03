@@ -81,7 +81,7 @@ A subnet is by default associated to the default route table in a VPC. To explic
 
 ### Add Parameters
 
-Now add a parameter "CidrBlock" that allows you to specify a parameter with the CidrBlock, instead of hard coding the CidrBlock in the template. [Docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html)
+Now add parameters "CidrBlock", "SubnetCidrBlockA", "SubnetCidrBlockB", instead of hard coding the CidrBlock in the template. [Docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html)
 
 ```yaml
 Parameters:
@@ -93,4 +93,3 @@ Resources:
     Properties:
       ExampleName: !Ref ExampleParameter
 ```
-
